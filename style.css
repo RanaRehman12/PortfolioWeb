@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fira+Sans:ital,wght@1,400;1,500&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fira+Sans:ital,wght@1,400;1,500&family=Lora&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fira+Sans:ital,wght@1,400;1,500&family=Lora&family=Shizuru&family=Smooch+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Fira+Sans:ital,wght@1,400;1,500&family=Lora&family=Shizuru&family=Smooch+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Fira+Sans:ital,wght@1,400;1,500&family=Lora&family=Roboto:ital@1&family=Shizuru&family=Smooch+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Fira+Sans:ital,wght@1,400;1,500&family=Lora&family=Roboto:ital,wght@1,100;1,400&family=Shizuru&family=Smooch+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Fira+Sans:ital,wght@0,100;1,400;1,500&family=Lora&family=Roboto:ital,wght@1,100;1,400&family=Shizuru&family=Smooch+Sans:wght@100&display=swap');
+:root {
+    --main-bg-color: rgb(80, 50, 110);
+  }
+*{
+    margin: 0; 
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    /* background-color: var(--main-bg-color); */
+    background-color: #e9e6e6;
+    height: 100vh;
+    transition:transform 0.1s ease-in;
+    /* width: 234px; */
+}
+.sidebar nav{
+    padding: 34px;
+    /* height: 100vh; */
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 0px;
+    font-family: 'Lucida Sans Unicode';
+    /* font-weight: bold; */
+  /* font-style: oblique; */
+}
+.sidebar nav li a:hover{
+    /* background-color: grey; */
+    color: white;
+}
+.main{
+    height: 80vh;
+    padding: 23px;
+    width: 85vw;
+    background-color: white;
+}
+.containar{
+    display: flex;
+}
+.sidebar h1{
+    color: white;
+font-size: 24px;
+font-weight: bold;
+font-style: italic;
+}
+.infocontainer{
+    font-size: 16px;
+    /* flex-wrap:wrap; */
+    display: flex;
+    justify-content:space-around;
+    /* background-color: rgb(250, 32, 32); */
+    height: 50vh;
+    width: 70vw;
+    margin: 70px auto;
+}
+.my .moreabout{
+    text-align: justify;
+      font-style: initial;
+    font-size: 14px;
+}
+.my{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    width: 35vw;
+    
+    
+}
+.pic img{
+    height: 50vh;
+}
+.hello{
+    
+font-size: 3em;
+font-family: 'Caveat', cursive;
+font-family: 'Fira Sans', sans-serif;
+}
+.name{
+    padding-top: 1px;
+    font-family:  'cursive';
+/* font-family: 'Fira Sans', sans-serif; */
+    font-size: 2em;
+    font-weight: bold;
+}
+.about{
+    /* font-family: 'Caveat', cursive; */
+font-size: 1em;
+font-weight: bold;
+font-family: 'Fira Sans', 'sans-serif';
+}
+.moreabout{
+    margin: 5px;
+    font-size: 15px;
+font-family: 'Times New Roman';
+
+}
+.button .btn {    
+        /* padding: 15px,14px; */
+    /* margin: 0 3px; */
+    font-size: 16px;
+    /* padding: 3px 5px; */
+    /* border-radius: 15px; */
+    background-color: rgb(0, 12, 116);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.btn sm{
+    font-size: 14px;
+    padding: 10px,19px;
+    margin: 12px, 0;
+}
+ul li a{
+  text-decoration: none;
+  color:black;
+}
+.contactfrm{
+    padding:0% 3px;
+    padding-top: 44px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 128px;
+}
+.contactfrm h1,h2{
+    margin-top: 10px;
+    margin-left: 6px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.container1{
+    display: flex;
+    justify-content: left;
+}
+.emailp{
+        margin-left: -420px;
+}
+.email li {
+    margin-top: 10px;
+margin-left: 50px;}
+.email li a{
+    margin-left: -70px;
+color: rgb(0, 0, 0);
+font-weight: bolder;
+font-size: large;
+}
+.email a:hover{
+    background-color: black;
+    color: white;
+}
+.phnp{
+    margin-left: -300px;
+    margin-top: 2px;
+}
+.phn{
+    margin-left: -70px;
+    color: rgb(0, 0, 0);
+font-weight: bolder;
+font-size: large;
+}
+.linkd{
+    margin-top: 7px;
+    margin-left: -305px; 
+}
+.link{
+    margin-top: 10px;
+    margin-left: -70px;  
+    color: rgb(0, 0, 0);
+font-weight: bolder;
+font-size: large;
+}
+.link a:hover{
+    background-color:rgb(3, 3, 3);
+    color: rgb(255, 253, 253);
+}
+.contactfrm form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+} 
+.contactfrm form div input{
+    width: 26vw;
+    border-radius: 3px;
+    margin: 6px 0 0 0;
+    padding: 3px; 
+}
+.main li{
+    margin: 0 165px;
+    list-style: none;
+}
+#emailHelp{
+    font-size: 11px;
+    color: red;
+    margin: 2px 5px;
+}
+
+.info,h2,h3,h4{
+    margin: 8px 65px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul p{
+    font-size: 20px;
+        margin: 13px -26px;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.main8{
+    margin: 0 125px;
+}
+.info il p{
+    text-align: justify;
+}
+.i p{
+    margin: 0 65px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+/* font-family: 'Roboto', sans-serif; */
+}
+@media(max-width: 1050px) {
+    /* .sidebar{
+        transform:translate(-443px, 0px);
+        position:absolute;
+    } */
+    .pic{
+        display: none;
+    }
+  }
+   .sidebargo{
+        transform:translate(-443px, 0px);
+        position:absolute;
+    
+  }
+  .hamburger{
+      display: flex;
+position: absolute;
+    cursor: pointer;
+      top: 10px;
+      left: 10px;
+  }
+  .cross{
+   margin-left: 130px;
+  }
+     /* footer{
+        height: 55px;
+        display: flex;
+justify-content: center;
+            background-color: rgb(227, 218, 236);
+     }
+     .f{
+         
+         text-align: center; 
+          align-items: center;
+         
+     } */
